@@ -26,13 +26,13 @@ void setup()
     .setPosition(width/6*3, 20)
     .setSize(width/4, 20)
     .setRange(0, 6.28)
-    .setValue(5.97)
+    .setValue(6.0)
     ;
 
   cp5.addSlider("rotation")
     .setPosition(width/2-120, 400)
     .setSize(170, 20)
-    .setRange(0, 6.28)
+    .setRange(0, PI)
     .setValue(0)
     ;
 }
